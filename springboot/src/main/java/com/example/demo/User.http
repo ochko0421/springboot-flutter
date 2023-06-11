@@ -1,0 +1,14 @@
+###
+post http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "firstName":"test",
+    "lastName":"test",
+    "gender":"male",
+    "date":"2022-06-10",
+    "amount":100
+}
+
+###
+get http://localhost:8080/user
